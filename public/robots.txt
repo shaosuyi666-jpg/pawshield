@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pawshield-canada.vercel.app/sitemap.xml
