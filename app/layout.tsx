@@ -4,9 +4,48 @@ import { SubtleMotion } from "@/components/SubtleMotion";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PawShield | Canadian Pet Insurance Comparison",
+  metadataBase: new URL("https://pawshield.com"),
+  title: "PawShield | Compare Pet Insurance in Canada",
   description:
-    "Compare Canadian pet insurance options using personalized pet health insights, breed risks, and coverage education."
+    "Free Canadian pet insurance comparison tool. Understand your dog or cat's health risks, compare coverage options, and find protection that fits your pet.",
+  keywords: [
+    "pet insurance Canada",
+    "dog insurance Canada",
+    "cat insurance Canada",
+    "compare pet insurance Canada",
+    "Fetch vs Trupanion",
+    "pet health risk assessment",
+    "Canadian pet insurance comparison",
+    "pet insurance for dogs Canada",
+    "pet insurance for cats Canada"
+  ],
+  alternates: {
+    canonical: "/"
+  },
+  openGraph: {
+    title: "PawShield - Smart Pet Insurance Comparison Canada",
+    description:
+      "Personalized pet insurance education and comparison for Canadian dog and cat owners.",
+    url: "/",
+    siteName: "PawShield",
+    images: [
+      {
+        url: "/hero-pets.png",
+        width: 1536,
+        height: 1024,
+        alt: "PawShield pet insurance comparison for Canadian dog and cat owners"
+      }
+    ],
+    locale: "en_CA",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PawShield - Smart Pet Insurance Comparison Canada",
+    description:
+      "Personalized pet insurance education and comparison for Canadian dog and cat owners.",
+    images: ["/hero-pets.png"]
+  }
 };
 
 const navItems = [
