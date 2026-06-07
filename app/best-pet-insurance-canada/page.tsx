@@ -10,9 +10,9 @@ import {
 import { PageHeader } from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Best Pet Insurance Canada: Compare Coverage Options",
+  title: "Best Pet Insurance Canada | Compare Coverage Options",
   description:
-    "Learn how to compare Canadian pet insurance providers, coverage levels, breed risks, and policy features before requesting official quotes."
+    "Compare pet insurance options in Canada. Learn about coverage, waiting periods, reimbursement, breed risks, and how to choose protection for your dog or cat."
 };
 
 const decisionFactors = [

@@ -124,6 +124,34 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-[#fffaf0]">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+          <div className="mb-7 max-w-2xl">
+            <p className="text-sm font-semibold uppercase tracking-wide text-spruce">
+              Learn More About Pet Insurance 🐾
+            </p>
+          </div>
+          <article className="grid gap-6 rounded-lg border border-spruce/15 bg-white p-6 shadow-sm sm:p-8 md:grid-cols-[1fr_auto] md:items-center">
+            <div>
+              <h2 className="text-2xl font-semibold text-ink">
+                Best Pet Insurance Canada Guide
+              </h2>
+              <p className="mt-3 max-w-3xl leading-7 text-ink/72">
+                Learn how Canadian pet insurance options compare, including
+                coverage types, reimbursement, waiting periods, and important
+                features to consider before choosing a plan.
+              </p>
+            </div>
+            <Link
+              href="/best-pet-insurance-canada"
+              className="inline-flex items-center justify-center rounded-full bg-spruce px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-ink focus:outline-none focus:ring-4 focus:ring-spruce/25"
+            >
+              Read Guide
+            </Link>
+          </article>
+        </div>
+      </section>
+
       <section className="bg-[#fbfdfc]">
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
           <div className="mb-7 max-w-2xl">
